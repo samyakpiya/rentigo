@@ -39,7 +39,7 @@ const CarCard = ({ car }: CarCardProps) => {
           alt="Car Model"
           fill
           priority
-          className="object"
+          className="object-contain"
         />
       </div>
 
