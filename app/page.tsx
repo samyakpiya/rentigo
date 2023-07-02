@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 
 import { Hero, SearchBar, CustomFilter, CarCard, ShowMore } from "@/components";
 import { fetchCars } from "@/utils";
-import { FilterProps } from "@/types";
 import { fuels, yearsOfProduction } from "@/constants";
 
 export default function Home() {

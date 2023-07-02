@@ -7,7 +7,6 @@ import { updateSearchParams } from "@/utils";
 const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {
   const handleNavigation = () => {
     const newLimit = (pageNumber + 1) * 12;
-    const newPathname = updateSearchParams("limit", `${newLimit}`);
 
     setLimit(newLimit);
   };

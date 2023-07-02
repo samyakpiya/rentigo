@@ -10,8 +10,8 @@ const Navbar = () => {
           <Image
             src="/logo.svg"
             alt="Rentigo Logo"
-            width={118}
-            height={18}
+            width={200}
+            height={118}
             className="object-contain"
           />
         </Link>
